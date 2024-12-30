@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Penjumlahan</h2>
+        <form id="penjumlahanForm">
+            <label for="bilangan1">Bilangan pertama</label>
+            <input type="number" id="bilangan1" name="bilangan1">
+            
+            <label for="bilangan2">Bilangan kedua</label>
+            <input type="number" id="bilangan2" name="bilangan2">
+            
+            <div class="buttons">
+                <button type="button" onclick="hitung()">Jumlahkan</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <h3>Hasil: <span id="hasil"></span></h3>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
